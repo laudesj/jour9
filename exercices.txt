@@ -1,0 +1,30 @@
+* Exercice 1
+créer un formulaire avec : 
+- un champ textarea nommé message
+- un champ input texte nommé nom_fichier
+Le traitement du formulaire devra créer un fichier nommé avec la valeur du champ "nom_fichier" et son contenu avec la valeur du textarea "message"
+
+* Exercice 2 : 
+Ecrire une fonction php qui transforme le contenu d'un fichier texte selon une transformation aléatoire de chaque caractère en minuscule ou majuscule (par exemple : "Bonjour  le monde" => "BoNjouR LE MoNde"
+Puis afficher le contenu de ce fichier.
+
+fonctions php utilisables : str_split, implode, mt_rand, strtoupper, strtolower
+
+
+* Exercice 3 : 
+A l'aide du fichier dictionnaire (http://www.pallier.org/ressources/dicofr/dicofr.html => créer le fichier dico.txt à partir du lien http://www.pallier.org/ressources/dicofr/liste.de.mots.francais.frgut.txt), créer une fonction dont la signature est la suivante :
+
+string function translation(int pas, int seuil, string texte)
+
+Exemple : translation(4, 3, "la cigale et la fourmi") => "la cigarette et la fourmilliers"
+la_cigale_et_la_fourmi.txt et liste.de.mots.francais.frgut.txt fournis
+
+Ecrire cette même fonction pour traiter des fichiers
+Exemple : file_transalation(4, 3, "la cigale_et_la_fourmi.txt") => créer un fichier la cigale_et_la_fourmi.translate.txt contenant le fichier "translaté"
+
+* Exercice 4 : trouver tous les palindromes du dictionnaire de l'exercice 3 (exemple : radar)
+- produire le fichier des palindromes (palindromes.txt)
+- afficher le nombre de palindromes trouvés
+
+* Exercice 5 :
+Trouver tous les anagrammes d'un mot donné. Exemple : "laurent" => "naturel", "renault"

@@ -15,6 +15,7 @@ fonctions php utilisables : str_split, implode, mt_rand, strtoupper, strtolower
 A l'aide du fichier dictionnaire (http://www.pallier.org/ressources/dicofr/dicofr.html => créer le fichier dico.txt à partir du lien http://www.pallier.org/ressources/dicofr/liste.de.mots.francais.frgut.txt), créer une fonction dont la signature est la suivante :
 
 string function translation(int pas, int seuil, string texte)
+(le seuil correspond à la taille du mot en dessous duquel on n'applique la translation ; afin de ne pas translater les petits mots)
 
 Exemple : translation(4, 3, "la cigale et la fourmi") => "la cigarette et la fourmilliers"
 la_cigale_et_la_fourmi.txt et liste.de.mots.francais.frgut.txt fournis
